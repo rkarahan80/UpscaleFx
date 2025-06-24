@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.gitlab-ci.yml
+.gitignore
+local_settings.py
+docker-compose.yml
+# Temporary files from backend operations (if any were to be committed by mistake)
+temp_uploads/
+temp_processed/
+*.swp
+*.swo
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
